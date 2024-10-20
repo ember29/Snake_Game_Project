@@ -1,10 +1,8 @@
+
 # Snake Game
 
-This is a simple Snake Game developed using Python and the Pygame library. The objective of the game is to control the snake and collect food to grow in length while avoiding collisions with the walls or the snake's own body.
+This is a simple Snake Game developed using Python and the Turtle library. The objective of the game is to control the snake and collect food to grow in length while avoiding collisions with the walls or the snake's own body.
 
-## Screenshot
-
-![Game Over](./path-to-your-image)
 
 ## Features
 
@@ -20,19 +18,15 @@ This is a simple Snake Game developed using Python and the Pygame library. The o
 
 ## Installation
 
-To run this game, you need Python installed along with the Pygame library. You can install Pygame by running:
-
-bash
-pip install pygame
-
+To run this game, you need Python installed. The `turtle` library is part of Python's standard library, so no additional installation is required.
 
 ## Running the Game
 
-Once Pygame is installed, you can start the game by running the Python script:
+You can start the game by running the Python script:
 
-bash
-python snake_game.py
-
+```bash
+python main.py
+```
 
 ## Future Enhancements
 
@@ -44,6 +38,4 @@ python snake_game.py
 
 Feel free to contribute to this project by submitting pull requests or reporting issues.
 
-## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
